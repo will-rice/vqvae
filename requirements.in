@@ -1,0 +1,7 @@
+pip-tools
+black
+tensorflow
+tensorflow-datasets
+tensorflow-probability
+tensorflow-addons
+tensorflow-io

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+base_path=$(dirname "$0")/..
+export PYTHONPATH=$base_path:$PYTHONPATH
+
+python "$base_path/tools/train" "$@"
